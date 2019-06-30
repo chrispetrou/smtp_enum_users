@@ -1,4 +1,7 @@
-# smtp_enum_users [![GPLv3 license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/chrispetrou/smtp_enum_users/blob/master/LICENSE) [![](https://img.shields.io/badge/Made%20with-python-yellow.svg)](https://www.python.org/)
+# smtp_enum_users 
+
+[![GPLv3 license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/chrispetrou/smtp_enum_users/blob/master/LICENSE) 
+[![](https://img.shields.io/badge/Made%20with-python-yellow.svg)](https://www.python.org/)
 [![Known Vulnerabilities](https://snyk.io//test/github/chrispetrou/smtp_enum_users/badge.svg?targetFile=requirements.txt)](https://snyk.io//test/github/chrispetrou/smtp_enum_users?targetFile=requirements.txt)
 
 This is a python script to automate the process of enumerating usernames through SMTP service. To do that it uses either `RCPT` method (default) or `VRFY` method. The default method used is `RCPT` since the most SMTP servers have the `VRFY` command disabled.
